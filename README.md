@@ -37,9 +37,16 @@ All devices share the same subnet.
 
 <img width="1023" height="432" alt="image" src="https://github.com/user-attachments/assets/3adca636-f5a0-406c-be79-4783a5b8457d" />
 
-### 7. Inspect Firewall Rules in pfSense
+### 7. Inspect Pfsense Router logs. 
 
-*I logged into the pfSense GUI using its IP address and reviewed the firewall rules. I removed the rule explicitly denying all outbound traffic from the Windows server which successfully resolved the connectivity issue.*
+*I logged into the pfSense GUI using its IP address and reviewed the logs. Confirmed that traffic from the Windows client was being dropped.* 
+
+<img width="1038" height="760" alt="image" src="https://github.com/user-attachments/assets/3971b2df-8683-4d5b-9894-b3a8469afb95" />
+
+
+### 8. Inspect Firewall Rules in pfSense
+
+*I navigated to the firewall rules and removed the rule explicitly denying all outbound traffic from the Windows server which successfully resolved the connectivity issue.*
 
 <img width="1034" height="767" alt="image" src="https://github.com/user-attachments/assets/748be60d-fabc-4fce-a750-6842dcbac535" />
 

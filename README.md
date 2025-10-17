@@ -39,7 +39,7 @@ All devices share the same subnet.
 
 ### 7. Inspect Pfsense Router logs. 
 
-*I logged into the pfSense GUI using its IP address and reviewed the logs. Confirmed that traffic from the Windows client was being dropped.* 
+*I logged into the pfSense GUI using its IP address and reviewed the logs. Confirmed that the logs show repeated sendto error: 64 messages from the LAN interface, indicating that pfSense was blocking outbound traffic from the client to the internet. .* 
 
 <img width="1038" height="760" alt="image" src="https://github.com/user-attachments/assets/3971b2df-8683-4d5b-9894-b3a8469afb95" />
 
